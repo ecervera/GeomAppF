@@ -1,0 +1,8 @@
+    <widget id="es.uji.1003.GeomAppF" version="0.0.1">
+        <name>Geometry App</name>
+        <description>
+            A sample app
+        </description>
+        <content src="index.html" />
+        <access origin="*" />
+    </widget>
