@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+
+<html lang="en-US"> 
+
+	<head>
+	<title>Volume of a rectangular prism</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../../style.css">
+</head> 
+
+<body>
+
+
+	<p><h1><strong>Volume of a rectangular prism</strong></h1></p>
+
+	<img src="imgvolumes/vprism.jpg" width="307" height="158" alt="volume of a prism">
+
+	<form oninput="v.value = volume(x.valueAsNumber, y.valueAsNumber, z.valueAsNumber)">
+		<p>Height: <input name="x" type="number">
+		Width: <input name="y" type="number"></p>  
+		<p>Length: <input name="z" type="number"></p>
+		<p>Volume: <output name="v"></output></p>
+	</form>
+ 
+	<p><script src="vPrism.js"></script></p>
+	<p><input type="button" value="Back" onClick="window.location.href='../volume.html'" ></p>
+
+</body>
+
+</html>

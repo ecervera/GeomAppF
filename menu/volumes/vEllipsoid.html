@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+
+ <html lang="en-US">
+
+ <head>
+   <title>Volume of an Ellipsoid</title>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="../../style.css">
+ </head>
+
+
+ <body>
+ 
+    <h1>Volume of an Ellipsoid</h1>
+
+	<img src="imgvolumes/vellipsoid.jpg" width="307" height="158" alt="volume of an ellipsoid">
+    
+    <form oninput="V.value = volume(a.valueAsNumber,b.valueAsNumber,c.valueAsNumber)">
+      
+		<p>Lenght: <input name="a" type="number">
+		Width: <input name="b" type="number"></p>
+		<p>Height: <input name="c" type="number"></p>
+		<p>Volume: <output name="V"></output></p>
+
+    </form>
+     
+    <script src="vEllipsoid.js"></script> 
+	<p><input type="button" value="Back" onClick="window.location.href='../volume.html'" ></p>
+     
+ </body>
+
+ </html>

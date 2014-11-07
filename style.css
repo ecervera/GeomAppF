@@ -1,0 +1,28 @@
+
+
+body{
+background-image: url(icss2.jpg);
+font-size:24px;
+font-family: helvetica;
+margin-top: 50px;
+margin-left: 200px;
+margin-right:200px;
+background-size: 100%;
+text-align: center
+
+}
+input{
+
+font-size: 24px;
+text-align: left;
+
+width:10%;
+}
+
+input {
+border: 1px solid #8698af;
+text-align: center;
+color : #375d84;
+padding: 10px;
+width: 300px;
+}

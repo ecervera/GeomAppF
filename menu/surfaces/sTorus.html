@@ -1,0 +1,23 @@
+<!DOCTYPE html> 
+<html lang="en-US"> 
+<head> 
+ <title>surface of the torus</title> 
+ <meta charset="utf-8">
+ <link rel="stylesheet" href="../../style.css">
+</head> 
+<body> 
+ <h1>Surface of the torus</h1> 
+ 
+ <img src="imgsurfaces/storus.jpg" width="307" height="158" alt="surface of an ellipse">
+
+ <form oninput="a.value = area(r.valueAsNumber,R.valueAsNumber)"> 
+	<p>Radius r: <input name="r" type="number"></p>
+	<p>Radius R: <input name="R" type="number"></p>
+	<p>Area: <output name="a"></output></p>
+ </form>
+ <script src="sTorus.js"></script> 
+ 
+ <p><input type="button" value="Back" onClick="window.location.href='../surface.html'" ></p>
+ 
+</body> 
+</html>

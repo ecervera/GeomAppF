@@ -1,0 +1,27 @@
+
+<!DOC TYPE html>
+
+<html>
+
+<head>
+	<title>Torus volume</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+	<h1>Volume of a Torus</h1>
+	
+	<img src="imgvolumes/vtorus.jpg" width="307" height="158" alt="volume of a torus">
+		
+	<form oninput="v.value = volume(r.valueAsNumber, a.valueAsNumber)">
+		<p>Radius: <input name="r" type="number" ></p>
+        <p>Distance: <input name="a" type="number" ></p>
+        <p>Volume: <output name="v"></output></p>
+	</form>
+	
+    <p><script src="vTorus.js"></script></p>	
+	<p><input type="button" value="Back" onClick="window.location.href='../volume.html'" ></p>
+</body>
+
+</html>

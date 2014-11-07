@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Perimeter of a regular n-poligon</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+
+	<h1>Perimeter of a regular n-poligon</h1>
+
+	<img src="imgperimeters/ppolygon.jpg" width="307" height="158" alt="perimeter of  a n sides polygon">
+
+	<form oninput="P.value = Perimeter(n.valueAsNumber,l.valueAsNumber)">
+		<p>Number of sides: <input name="n" type="number"></p>
+		<p>Length of the sides: <input name="l" type="number"></p>
+		<p>Perimeter: <output name="P"></output></p>
+	</form>
+ 
+	<script src="pPolygon.js"></script> 
+	<p><input type="button" value="Back" onClick="window.location.href='../perimeter.html'" ></p>
+
+</body>
+
+</html>

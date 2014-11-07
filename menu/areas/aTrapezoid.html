@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en-US"> 
+
+<head> 
+<title>Area of a trapezoid</title> 
+<meta charset="utf-8"> 
+<link rel="stylesheet" href="../../style.css"">
+</head>
+
+<body> 
+	<h1>Area of a trapezoid</h1> 
+	
+	<img src="imgareas/atrapezoid.jpg" width="307" height="158" alt="area of trapezoid">
+    
+	<form oninput="a.value = area(b.valueAsNumber, c.valueAsNumber, h.valueAsNumber)">
+ 		<p>Base b: <input name="b" type="number">
+		Base c: <input name="c" type="number"></p>
+		<p>Height: <input name="h" type="number"></p>
+		<p>Area: <output name="a"></output></p>
+
+	</form>
+
+	<script src="aTrapezoid.js"></script> 
+	
+	<p>
+			<input type="button" value="Back" onClick="window.location.href='../area.html'" >
+		</p>
+</body> 
+
+</html>

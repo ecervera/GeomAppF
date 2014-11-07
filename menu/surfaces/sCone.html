@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+
+<html lang="en-US"> 
+
+<head> 
+
+ <title>Surface of a cone!</title> 
+
+ <meta charset="utf-8"> 
+ 
+ <link rel="stylesheet" href="../../style.css">
+ 
+ <style type="text/css"></style>
+
+
+</head> 
+
+<body> 
+
+	<h1>Surface of a cone</h1>
+
+	<img src="imgsurfaces/scone.jpg" width="307" height="158" alt="surface of a cone">
+ 
+
+	<form oninput="s.value = surface(r.valueAsNumber,l.valueAsNumber)">
+
+		<p>Radius: <input name="r" type="number"></p>
+
+		<p>Side: <input name="l" type="number"></p>
+
+		<p>Surface: <output name="s"></output></p>
+
+	</form>
+
+	<script src="sCone.js"></script> 
+ 
+	<p><input type="button" value="Back" onClick="window.location.href='../surface.html'" ></p>
+ 
+
+</body> 
+
+</html>

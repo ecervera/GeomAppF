@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html lang="en-US"> 
+<head> 
+ <title>Area of a polygon of n sides</title> 
+ <meta charset="utf-8"> 
+     <link rel="stylesheet" href="../../style.css"">
+</head>
+<body> 
+ <h1>Area of a polygon of n sides</h1>
+ 
+ <img src="imgareas/apolygon.jpg" width="307" height="158" alt="area of n sides polygon">
+
+ <form oninput="a.value = area(h.valueAsNumber,p.valueAsNumber)">
+ <p>Apothem: <input name="h" type="number"></p>
+ <p>Perimeter: <input name="p" type="number"></p>
+  
+ <p>Area: <output name="a"></output></p>
+ </form>
+
+<script src="aPolygon.js"></script> 
+<p>
+			<input type="button" value="Back" onClick="window.location.href='../area.html'" >
+		</p>
+ 
+</body> 
+</html>
+
+

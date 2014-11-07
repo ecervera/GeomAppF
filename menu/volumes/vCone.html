@@ -1,0 +1,22 @@
+<!DOCTYPE html> 
+<html lang="en-US"> 
+<head> 
+ <title>Volume Cone</title> 
+ <meta charset="utf-8"> 
+  <link rel="stylesheet" href="../../style.css">
+</head> 
+<body> 
+ <h1>Volume of a Cone</h1> 
+ 
+ <img src="imgvolumes/vcone.jpg" width="307" height="158" alt="volume of a cone">
+ 
+ <form oninput="v.value = volume(r.valueAsNumber,h.valueAsNumber)"> 
+	<p>Radius r: <input name="r" type="number"></p> 
+	<p>hight h: <input name="h" type="number"></p> 
+	<p>Area: <output name="v"></output></p> 
+ </form> 
+ <script src="vCone.js"></script> 
+ <p><input type="button" value="Back" onClick="window.location.href='../volume.html'" ></p>
+ 
+</body> 
+</html> 
